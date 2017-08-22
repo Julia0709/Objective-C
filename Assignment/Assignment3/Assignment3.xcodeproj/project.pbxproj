@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A36637481F4B4B69001C2695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A36637471F4B4B69001C2695 /* main.m */; };
-		A366374F1F4B63B9001C2695 /* inputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A366374E1F4B63B9001C2695 /* inputHandler.m */; };
+		A366374F1F4B63B9001C2695 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A366374E1F4B63B9001C2695 /* InputHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,8 @@
 /* Begin PBXFileReference section */
 		A36637441F4B4B69001C2695 /* Assignment3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment3; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36637471F4B4B69001C2695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A366374E1F4B63B9001C2695 /* inputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inputHandler.m; sourceTree = "<group>"; };
+		A366374E1F4B63B9001C2695 /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		A36637531F4BEFED001C2695 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A36637471F4B4B69001C2695 /* main.m */,
-				A366374E1F4B63B9001C2695 /* inputHandler.m */,
+				A366374E1F4B63B9001C2695 /* InputHandler.m */,
+				A36637531F4BEFED001C2695 /* InputHandler.h */,
 			);
 			path = Assignment3;
 			sourceTree = "<group>";
@@ -123,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36637481F4B4B69001C2695 /* main.m in Sources */,
-				A366374F1F4B63B9001C2695 /* inputHandler.m in Sources */,
+				A366374F1F4B63B9001C2695 /* InputHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +254,7 @@
 				A366374D1F4B4B69001C2695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

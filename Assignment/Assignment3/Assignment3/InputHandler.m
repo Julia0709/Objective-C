@@ -6,7 +6,7 @@
 //  © 2017 Julia
 //
 
-#import <Foundation/Foundation.h>
+#import "InputHandler.h"
 
 @implementation InputHandler
 
