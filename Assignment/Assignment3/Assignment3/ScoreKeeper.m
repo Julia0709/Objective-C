@@ -28,7 +28,7 @@
         self.percentage = [NSString stringWithFormat:@"%d", p];
         
     }
-    NSLog(@"score: %d right, %d wrong ... %@%%", self.right, self.wrong, self.percentage);
+    NSLog(@"score: %d right, %d wrong ... %@%", self.right, self.wrong, self.percentage);
 }
 
 @end

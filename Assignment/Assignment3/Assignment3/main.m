@@ -33,7 +33,7 @@ int main(int argc, const char * argv[]) {
             
             [score printCurrentState];
             
-            NSLog(@"Wanna quit press 'q'");
+            NSLog(@"Press 'q' to quit");
             NSString *quit = [InputHandler getUserInput];
             if ([quit isEqualToString:@"q"]) {
                 break;
