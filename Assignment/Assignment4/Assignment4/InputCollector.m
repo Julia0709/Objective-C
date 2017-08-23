@@ -47,9 +47,9 @@
     if (l == 0) {
         NSLog(@"No data \n");
     } else {
-        for (int i = 0; i < l; i++) {
-            NSString *result = [data objectAtIndex:i];
-            NSLog(@"%@ \n", result);
+        for (int i = 1; i < l; i += 2) {
+            NSLog(@"#%d %@ %@ \n", i/2 + 1, [data objectAtIndex:i-1], [data objectAtIndex:i]);
+
         }
     }
 
