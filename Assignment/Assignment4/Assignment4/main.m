@@ -12,18 +12,20 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 
-        NSLog(@"How can I help you?");
-        NSLog(@"\n'new'  - Create a new contact \n'list' - List all contacts \n'quit' - Exit Application \n");
+        NSString *menu = (@"How can I help you? \n'new'  - Create a new contact \n'list' - List all contacts \n'quit' - Exit Application \n");
 
         while(1) {
-
+            
+            NSLog(@"%@", menu);
             NSString *input = [InputCollector getUserInput];
+
             if ([input isEqualToString:@"new"]) {
-                NSLog(@"new typed \n");
+                [InputCollector addNewContact];
+                continue;
             } else if ([input isEqualToString:@"list"]) {
                 NSLog(@"list typed \n");
             } else if ([input isEqualToString:@"quit"]) {
-                NSLog(@"quit typed \n");
+                break;
             } else {
                 NSLog(@"Type 'new', 'list' or 'quit' \n");
             }

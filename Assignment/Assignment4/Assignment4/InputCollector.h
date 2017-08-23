@@ -11,5 +11,6 @@
 @interface InputCollector : NSObject
 
 + (NSString *) getUserInput;
++ (int) addNewContact;
 
 @end
