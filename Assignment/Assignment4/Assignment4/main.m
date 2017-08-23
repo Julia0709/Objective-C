@@ -12,6 +12,8 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 
+        NSMutableArray *data = [[NSMutableArray alloc] init];
+        
         NSString *menu = (@"How can I help you? \n'new'  - Create a new contact \n'list' - List all contacts \n'quit' - Exit Application \n");
 
         while(1) {
@@ -20,16 +22,19 @@ int main(int argc, const char * argv[]) {
             NSString *input = [InputCollector getUserInput];
 
             if ([input isEqualToString:@"new"]) {
-                [InputCollector addNewContact];
+                [InputCollector addNewContact:data];
                 continue;
             } else if ([input isEqualToString:@"list"]) {
-                NSLog(@"list typed \n");
+                [InputCollector contactList:data];
             } else if ([input isEqualToString:@"quit"]) {
                 break;
             } else {
                 NSLog(@"Type 'new', 'list' or 'quit' \n");
             }
         }
+        
+
+        
             
     }
     return 0;

@@ -17,7 +17,7 @@
     return [[NSString stringWithCString:myStr encoding:NSUTF8StringEncoding] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
-+ (int) addNewContact {
++ (void) addNewContact : (NSMutableArray *) data {
     
     NSLog(@"Name: \n");
     NSString *name = [self getUserInput];
@@ -25,6 +25,7 @@
         NSLog(@"Please enter a name \n");
         name = [self getUserInput];
     }
+    [data addObject:name];
 
     NSLog(@"Email: \n");
     NSString *email = [self getUserInput];
@@ -32,9 +33,27 @@
         NSLog(@"Please enter a Email address \n");
         email = [self getUserInput];
     }
-    
+    [data addObject:email];
+
     NSLog(@"Saved! \n");
-    return 1;
+}
+
++ (void) contactList : (NSMutableArray *) data {
+
+    NSLog(@"Contact List: \n");
+    
+    NSUInteger l = [data count];
+    
+    if (l == 0) {
+        NSLog(@"No data \n");
+    } else {
+        for (int i = 0; i < l; i++) {
+            NSString *result = [data objectAtIndex:i];
+            NSLog(@"%@ \n", result);
+        }
+    }
+
+    NSLog(@"--- end ---\n");
 }
 
 @end
