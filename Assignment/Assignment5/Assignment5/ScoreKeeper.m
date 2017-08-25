@@ -22,13 +22,11 @@
 - (void) printCurrentState {
     if (self.right == 0) {
         self.percentage = @"0%";
-    } else if (self.wrong == 0) {
-        self.percentage = @"100%";
     } else {
         int p = self.right * 100.0 / (self.right + self.wrong);
         self.percentage = [NSString stringWithFormat:@"%d", p];
     }
-    NSLog(@"score: %d right, %d wrong ... %@%", self.right, self.wrong, self.percentage);
+    NSLog(@"score: %d right, %d wrong ... %@%%", self.right, self.wrong, self.percentage);
 }
 
 @end

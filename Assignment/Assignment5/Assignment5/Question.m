@@ -10,9 +10,17 @@
 
 @implementation Question
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        _startTime = [NSDate date];
+        _endTime = [NSDate date];
+    }
+    return self;
+}
+
 - (NSTimeInterval)timeToAnswer {
-    // TODO
-    return 0;
+    return [_endTime timeIntervalSinceDate:_startTime];
 }
 
 - (void)generateQuestion {
