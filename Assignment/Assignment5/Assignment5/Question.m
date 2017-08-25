@@ -10,4 +10,13 @@
 
 @implementation Question
 
+- (NSTimeInterval)timeToAnswer {
+    // TODO
+    return 0;
+}
+
+- (void)generateQuestion {
+    // TODO
+}
+
 @end

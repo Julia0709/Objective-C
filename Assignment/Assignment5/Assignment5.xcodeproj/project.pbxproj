@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		A36637821F4F57B3001C2695 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A36637811F4F57B3001C2695 /* main.m */; };
 		A366378A1F4F580F001C2695 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = A36637891F4F580F001C2695 /* Question.m */; };
+		A366378D1F4F6017001C2695 /* SubtractionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = A366378C1F4F6017001C2695 /* SubtractionQuestion.m */; };
+		A3A3FC1B1F508D7600B6241E /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A3FC1A1F508D7600B6241E /* AdditionQuestion.m */; };
+		A3A3FC1E1F508DE400B6241E /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A3FC1D1F508DE400B6241E /* InputHandler.m */; };
+		A3A3FC211F508E5200B6241E /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A3FC201F508E5200B6241E /* ScoreKeeper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,14 @@
 		A36637811F4F57B3001C2695 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A36637881F4F580F001C2695 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		A36637891F4F580F001C2695 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		A366378B1F4F6017001C2695 /* SubtractionQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtractionQuestion.h; sourceTree = "<group>"; };
+		A366378C1F4F6017001C2695 /* SubtractionQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtractionQuestion.m; sourceTree = "<group>"; };
+		A3A3FC191F508D7600B6241E /* AdditionQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
+		A3A3FC1A1F508D7600B6241E /* AdditionQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
+		A3A3FC1C1F508DE400B6241E /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		A3A3FC1D1F508DE400B6241E /* InputHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		A3A3FC1F1F508E5200B6241E /* ScoreKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
+		A3A3FC201F508E5200B6241E /* ScoreKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,14 @@
 				A36637811F4F57B3001C2695 /* main.m */,
 				A36637881F4F580F001C2695 /* Question.h */,
 				A36637891F4F580F001C2695 /* Question.m */,
+				A366378B1F4F6017001C2695 /* SubtractionQuestion.h */,
+				A366378C1F4F6017001C2695 /* SubtractionQuestion.m */,
+				A3A3FC191F508D7600B6241E /* AdditionQuestion.h */,
+				A3A3FC1A1F508D7600B6241E /* AdditionQuestion.m */,
+				A3A3FC1C1F508DE400B6241E /* InputHandler.h */,
+				A3A3FC1D1F508DE400B6241E /* InputHandler.m */,
+				A3A3FC1F1F508E5200B6241E /* ScoreKeeper.h */,
+				A3A3FC201F508E5200B6241E /* ScoreKeeper.m */,
 			);
 			path = Assignment5;
 			sourceTree = "<group>";
@@ -124,8 +144,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A3FC211F508E5200B6241E /* ScoreKeeper.m in Sources */,
 				A36637821F4F57B3001C2695 /* main.m in Sources */,
+				A3A3FC1B1F508D7600B6241E /* AdditionQuestion.m in Sources */,
+				A366378D1F4F6017001C2695 /* SubtractionQuestion.m in Sources */,
 				A366378A1F4F580F001C2695 /* Question.m in Sources */,
+				A3A3FC1E1F508DE400B6241E /* InputHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +278,7 @@
 				A36637871F4F57B3001C2695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
