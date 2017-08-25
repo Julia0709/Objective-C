@@ -30,7 +30,7 @@ int main(int argc, const char * argv[]) {
 
         while (gameOn) {
 
-            NSLog(@"question %d: ", ++count);
+            NSLog(@"Question %d: ", ++count);
             AdditionQuestion *q1 = [[AdditionQuestion alloc] init];
             NSLog(@"%@", [q1 question]);
 
@@ -62,4 +62,3 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
-
