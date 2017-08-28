@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (Piglatin)
+@interface NSString (Piglatin)
 
 + (NSString *) getUserInput;
 

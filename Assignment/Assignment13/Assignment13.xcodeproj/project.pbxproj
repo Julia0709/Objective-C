@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A31868EF1F50A07600978146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A31868EE1F50A07600978146 /* main.m */; };
-		A31868F71F50A39C00978146 /* NSObject+Piglatin.m in Sources */ = {isa = PBXBuildFile; fileRef = A31868F61F50A39C00978146 /* NSObject+Piglatin.m */; };
+		A31868F71F50A39C00978146 /* NSString+Piglatin.m in Sources */ = {isa = PBXBuildFile; fileRef = A31868F61F50A39C00978146 /* NSString+Piglatin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		A31868EB1F50A07600978146 /* Assignment13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment13; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31868EE1F50A07600978146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A31868F51F50A39C00978146 /* NSObject+Piglatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Piglatin.h"; sourceTree = "<group>"; };
-		A31868F61F50A39C00978146 /* NSObject+Piglatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Piglatin.m"; sourceTree = "<group>"; };
+		A31868F51F50A39C00978146 /* NSString+Piglatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Piglatin.h"; sourceTree = "<group>"; };
+		A31868F61F50A39C00978146 /* NSString+Piglatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Piglatin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A31868EE1F50A07600978146 /* main.m */,
-				A31868F51F50A39C00978146 /* NSObject+Piglatin.h */,
-				A31868F61F50A39C00978146 /* NSObject+Piglatin.m */,
+				A31868F51F50A39C00978146 /* NSString+Piglatin.h */,
+				A31868F61F50A39C00978146 /* NSString+Piglatin.m */,
 			);
 			path = Assignment13;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A31868EF1F50A07600978146 /* main.m in Sources */,
-				A31868F71F50A39C00978146 /* NSObject+Piglatin.m in Sources */,
+				A31868F71F50A39C00978146 /* NSString+Piglatin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +254,7 @@
 				A31868F41F50A07600978146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

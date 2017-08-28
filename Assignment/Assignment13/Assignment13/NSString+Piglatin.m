@@ -6,9 +6,9 @@
 //  2017 Julia
 //
 
-#import "NSObject+Piglatin.h"
+#import "NSString+Piglatin.h"
 
-@implementation NSObject (Piglatin)
+@implementation NSString (Piglatin)
 
 
 + (NSString *) getUserInput {
@@ -20,7 +20,10 @@
 
 - (NSString *)stringByPigLatinization {
 
-    return @"NSString";
+    NSString *input = self;
+    NSString *result = [input stringByAppendingString:@"ay"];
+
+    return result;
 }
 
 @end

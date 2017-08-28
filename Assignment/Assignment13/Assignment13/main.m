@@ -7,15 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NSObject+Piglatin.h"
+#import "NSString+Piglatin.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 
         NSLog(@"Pig Latin! \n\n\n");
 
-        NSString *input = [NSObject getUserInput];
-        NSLog(@"%@", input);
+        NSLog(@"Enter some words: ");
+        NSString *input = [NSString getUserInput];
+
+        NSString *output = [input stringByPigLatinization];
+        NSLog(@"%@", output);
     }
 
     return 0;
