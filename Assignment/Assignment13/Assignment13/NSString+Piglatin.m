@@ -19,9 +19,28 @@
 }
 
 - (NSString *)stringByPigLatinization {
-
     NSString *input = self;
-    NSString *result = [input stringByAppendingString:@"ay"];
+
+    // Put each word in Array
+    NSMutableArray *words = (NSMutableArray *)[input componentsSeparatedByString:@" "];
+//    [words removeObject:@""];
+
+    NSString *result = @"";
+    for (int i = 0; i < [words count]; i++) {
+        NSString *w = words[i];
+        for (int j = 0; j < [w length]; j++) {
+            char l = [w characterAtIndex:j];
+            if (l == 'a' || l == 'e' || l == 'i' || l == 'o' || l == 'u' ||
+                l == 'A' || l == 'E' || l == 'I' || l == 'O' || l == 'U') {
+                result = [result stringByAppendingString:[w substringWithRange:NSMakeRange(j, [w length] - j)]];
+                
+                result = [result stringByAppendingString:[w substringWithRange:NSMakeRange(0, j)]];
+
+                break;
+            }
+        }
+        result = [result stringByAppendingString:@"ay "];
+    }
 
     return result;
 }
