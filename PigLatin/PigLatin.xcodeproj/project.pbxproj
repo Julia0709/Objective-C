@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A31868EF1F50A07600978146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A31868EE1F50A07600978146 /* main.m */; };
-		A31868F71F50A39C00978146 /* NSString+Piglatin.m in Sources */ = {isa = PBXBuildFile; fileRef = A31868F61F50A39C00978146 /* NSString+Piglatin.m */; };
+		A3CA4CF91F58739C009582A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA4CF61F58739C009582A9 /* main.m */; };
+		A3CA4CFA1F58739C009582A9 /* NSString+Piglatin.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA4CF81F58739C009582A9 /* NSString+Piglatin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A31868EB1F50A07600978146 /* Assignment13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment13; sourceTree = BUILT_PRODUCTS_DIR; };
-		A31868EE1F50A07600978146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A31868F51F50A39C00978146 /* NSString+Piglatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Piglatin.h"; sourceTree = "<group>"; };
-		A31868F61F50A39C00978146 /* NSString+Piglatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Piglatin.m"; sourceTree = "<group>"; };
+		A31868EB1F50A07600978146 /* PigLatin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PigLatin; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CA4CF61F58739C009582A9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PigLatin/main.m; sourceTree = SOURCE_ROOT; };
+		A3CA4CF71F58739C009582A9 /* NSString+Piglatin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Piglatin.h"; path = "PigLatin/NSString+Piglatin.h"; sourceTree = SOURCE_ROOT; };
+		A3CA4CF81F58739C009582A9 /* NSString+Piglatin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Piglatin.m"; path = "PigLatin/NSString+Piglatin.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		A31868E21F50A07600978146 = {
 			isa = PBXGroup;
 			children = (
-				A31868ED1F50A07600978146 /* Assignment13 */,
+				A31868ED1F50A07600978146 /* PigLatin */,
 				A31868EC1F50A07600978146 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,27 +52,28 @@
 		A31868EC1F50A07600978146 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A31868EB1F50A07600978146 /* Assignment13 */,
+				A31868EB1F50A07600978146 /* PigLatin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A31868ED1F50A07600978146 /* Assignment13 */ = {
+		A31868ED1F50A07600978146 /* PigLatin */ = {
 			isa = PBXGroup;
 			children = (
-				A31868EE1F50A07600978146 /* main.m */,
-				A31868F51F50A39C00978146 /* NSString+Piglatin.h */,
-				A31868F61F50A39C00978146 /* NSString+Piglatin.m */,
+				A3CA4CF61F58739C009582A9 /* main.m */,
+				A3CA4CF71F58739C009582A9 /* NSString+Piglatin.h */,
+				A3CA4CF81F58739C009582A9 /* NSString+Piglatin.m */,
 			);
+			name = PigLatin;
 			path = Assignment13;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A31868EA1F50A07600978146 /* Assignment13 */ = {
+		A31868EA1F50A07600978146 /* PigLatin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A31868F21F50A07600978146 /* Build configuration list for PBXNativeTarget "Assignment13" */;
+			buildConfigurationList = A31868F21F50A07600978146 /* Build configuration list for PBXNativeTarget "PigLatin" */;
 			buildPhases = (
 				A31868E71F50A07600978146 /* Sources */,
 				A31868E81F50A07600978146 /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = Assignment13;
+			name = PigLatin;
 			productName = Assignment13;
-			productReference = A31868EB1F50A07600978146 /* Assignment13 */;
+			productReference = A31868EB1F50A07600978146 /* PigLatin */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A31868E61F50A07600978146 /* Build configuration list for PBXProject "Assignment13" */;
+			buildConfigurationList = A31868E61F50A07600978146 /* Build configuration list for PBXProject "PigLatin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A31868EA1F50A07600978146 /* Assignment13 */,
+				A31868EA1F50A07600978146 /* PigLatin */,
 			);
 		};
 /* End PBXProject section */
@@ -124,8 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31868EF1F50A07600978146 /* main.m in Sources */,
-				A31868F71F50A39C00978146 /* NSString+Piglatin.m in Sources */,
+				A3CA4CF91F58739C009582A9 /* main.m in Sources */,
+				A3CA4CFA1F58739C009582A9 /* NSString+Piglatin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +239,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A31868E61F50A07600978146 /* Build configuration list for PBXProject "Assignment13" */ = {
+		A31868E61F50A07600978146 /* Build configuration list for PBXProject "PigLatin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A31868F01F50A07600978146 /* Debug */,
@@ -247,7 +248,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A31868F21F50A07600978146 /* Build configuration list for PBXNativeTarget "Assignment13" */ = {
+		A31868F21F50A07600978146 /* Build configuration list for PBXNativeTarget "PigLatin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A31868F31F50A07600978146 /* Debug */,

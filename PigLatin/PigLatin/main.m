@@ -16,9 +16,7 @@ int main(int argc, const char * argv[]) {
 
         NSLog(@"Enter some words: ");
         NSString *input = [NSString getUserInput];
-
-        NSString *output = [input stringByPigLatinization];
-        NSLog(@"%@", output);
+        NSLog(@"%@", [input stringByPigLatinization]);
     }
 
     return 0;
