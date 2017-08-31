@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A320BA0D1F548813009FEBCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A320BA0C1F548813009FEBCF /* main.m */; };
-		A320BA151F5490DF009FEBCF /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = A320BA141F5490DF009FEBCF /* Dice.m */; };
-		A320BA181F54919C009FEBCF /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = A320BA171F54919C009FEBCF /* GameController.m */; };
+		A3BDD6B51F57D85300C748B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BDD6B41F57D85300C748B3 /* main.m */; };
+		A3BDD6C11F57D9E400C748B3 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BDD6BC1F57D9E400C748B3 /* Dice.m */; };
+		A3BDD6C21F57D9E400C748B3 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BDD6BE1F57D9E400C748B3 /* GameController.m */; };
+		A3BDD6C31F57D9E400C748B3 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BDD6C01F57D9E400C748B3 /* InputCollector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A320BA071F548813009FEBCF /* CopyFiles */ = {
+		A3BDD6AF1F57D85300C748B3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +26,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A320BA091F548813009FEBCF /* Assignment6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment6; sourceTree = BUILT_PRODUCTS_DIR; };
-		A320BA0C1F548813009FEBCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A320BA131F5490DF009FEBCF /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
-		A320BA141F5490DF009FEBCF /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
-		A320BA161F54919C009FEBCF /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
-		A320BA171F54919C009FEBCF /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		A3BDD6B11F57D85300C748B3 /* Threelow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Threelow; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BDD6B41F57D85300C748B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3BDD6BB1F57D9E400C748B3 /* Dice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dice.h; sourceTree = "<group>"; };
+		A3BDD6BC1F57D9E400C748B3 /* Dice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
+		A3BDD6BD1F57D9E400C748B3 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		A3BDD6BE1F57D9E400C748B3 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		A3BDD6BF1F57D9E400C748B3 /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		A3BDD6C01F57D9E400C748B3 /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A320BA061F548813009FEBCF /* Frameworks */ = {
+		A3BDD6AE1F57D85300C748B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,101 +47,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A320BA001F548813009FEBCF = {
+		A3BDD6A81F57D85300C748B3 = {
 			isa = PBXGroup;
 			children = (
-				A320BA0B1F548813009FEBCF /* Assignment6 */,
-				A320BA0A1F548813009FEBCF /* Products */,
+				A3BDD6B31F57D85300C748B3 /* Threelow */,
+				A3BDD6B21F57D85300C748B3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A320BA0A1F548813009FEBCF /* Products */ = {
+		A3BDD6B21F57D85300C748B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A320BA091F548813009FEBCF /* Assignment6 */,
+				A3BDD6B11F57D85300C748B3 /* Threelow */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A320BA0B1F548813009FEBCF /* Assignment6 */ = {
+		A3BDD6B31F57D85300C748B3 /* Threelow */ = {
 			isa = PBXGroup;
 			children = (
-				A320BA0C1F548813009FEBCF /* main.m */,
-				A320BA131F5490DF009FEBCF /* Dice.h */,
-				A320BA141F5490DF009FEBCF /* Dice.m */,
-				A320BA161F54919C009FEBCF /* GameController.h */,
-				A320BA171F54919C009FEBCF /* GameController.m */,
+				A3BDD6BB1F57D9E400C748B3 /* Dice.h */,
+				A3BDD6BC1F57D9E400C748B3 /* Dice.m */,
+				A3BDD6BD1F57D9E400C748B3 /* GameController.h */,
+				A3BDD6BE1F57D9E400C748B3 /* GameController.m */,
+				A3BDD6BF1F57D9E400C748B3 /* InputCollector.h */,
+				A3BDD6C01F57D9E400C748B3 /* InputCollector.m */,
+				A3BDD6B41F57D85300C748B3 /* main.m */,
 			);
-			path = Assignment6;
+			path = Threelow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A320BA081F548813009FEBCF /* Assignment6 */ = {
+		A3BDD6B01F57D85300C748B3 /* Threelow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A320BA101F548813009FEBCF /* Build configuration list for PBXNativeTarget "Assignment6" */;
+			buildConfigurationList = A3BDD6B81F57D85300C748B3 /* Build configuration list for PBXNativeTarget "Threelow" */;
 			buildPhases = (
-				A320BA051F548813009FEBCF /* Sources */,
-				A320BA061F548813009FEBCF /* Frameworks */,
-				A320BA071F548813009FEBCF /* CopyFiles */,
+				A3BDD6AD1F57D85300C748B3 /* Sources */,
+				A3BDD6AE1F57D85300C748B3 /* Frameworks */,
+				A3BDD6AF1F57D85300C748B3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Assignment6;
-			productName = Assignment6;
-			productReference = A320BA091F548813009FEBCF /* Assignment6 */;
+			name = Threelow;
+			productName = Threelow;
+			productReference = A3BDD6B11F57D85300C748B3 /* Threelow */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A320BA011F548813009FEBCF /* Project object */ = {
+		A3BDD6A91F57D85300C748B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Julia;
 				TargetAttributes = {
-					A320BA081F548813009FEBCF = {
+					A3BDD6B01F57D85300C748B3 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A320BA041F548813009FEBCF /* Build configuration list for PBXProject "Assignment6" */;
+			buildConfigurationList = A3BDD6AC1F57D85300C748B3 /* Build configuration list for PBXProject "Threelow" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A320BA001F548813009FEBCF;
-			productRefGroup = A320BA0A1F548813009FEBCF /* Products */;
+			mainGroup = A3BDD6A81F57D85300C748B3;
+			productRefGroup = A3BDD6B21F57D85300C748B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A320BA081F548813009FEBCF /* Assignment6 */,
+				A3BDD6B01F57D85300C748B3 /* Threelow */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A320BA051F548813009FEBCF /* Sources */ = {
+		A3BDD6AD1F57D85300C748B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A320BA181F54919C009FEBCF /* GameController.m in Sources */,
-				A320BA151F5490DF009FEBCF /* Dice.m in Sources */,
-				A320BA0D1F548813009FEBCF /* main.m in Sources */,
+				A3BDD6C21F57D9E400C748B3 /* GameController.m in Sources */,
+				A3BDD6C11F57D9E400C748B3 /* Dice.m in Sources */,
+				A3BDD6C31F57D9E400C748B3 /* InputCollector.m in Sources */,
+				A3BDD6B51F57D85300C748B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A320BA0E1F548813009FEBCF /* Debug */ = {
+		A3BDD6B61F57D85300C748B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +192,7 @@
 			};
 			name = Debug;
 		};
-		A320BA0F1F548813009FEBCF /* Release */ = {
+		A3BDD6B71F57D85300C748B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,14 +233,14 @@
 			};
 			name = Release;
 		};
-		A320BA111F548813009FEBCF /* Debug */ = {
+		A3BDD6B91F57D85300C748B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		A320BA121F548813009FEBCF /* Release */ = {
+		A3BDD6BA1F57D85300C748B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -244,24 +250,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A320BA041F548813009FEBCF /* Build configuration list for PBXProject "Assignment6" */ = {
+		A3BDD6AC1F57D85300C748B3 /* Build configuration list for PBXProject "Threelow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A320BA0E1F548813009FEBCF /* Debug */,
-				A320BA0F1F548813009FEBCF /* Release */,
+				A3BDD6B61F57D85300C748B3 /* Debug */,
+				A3BDD6B71F57D85300C748B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A320BA101F548813009FEBCF /* Build configuration list for PBXNativeTarget "Assignment6" */ = {
+		A3BDD6B81F57D85300C748B3 /* Build configuration list for PBXNativeTarget "Threelow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A320BA111F548813009FEBCF /* Debug */,
-				A320BA121F548813009FEBCF /* Release */,
+				A3BDD6B91F57D85300C748B3 /* Debug */,
+				A3BDD6BA1F57D85300C748B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A320BA011F548813009FEBCF /* Project object */;
+	rootObject = A3BDD6A91F57D85300C748B3 /* Project object */;
 }
