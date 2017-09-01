@@ -1,6 +1,6 @@
 //
 //  Question.m
-//  Assignment5
+//  Math
 //
 //  Created by Julia on 2017/08/24.
 //  © 2017 Julia
@@ -13,18 +13,22 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
+        _leftValue = arc4random_uniform(100);
+        _rightValue = arc4random_uniform(100);
         _startTime = [NSDate date];
-        _endTime = [NSDate date];
     }
     return self;
 }
 
-- (NSTimeInterval)timeToAnswer {
+- (NSTimeInterval)answerTime {
     return [_endTime timeIntervalSinceDate:_startTime];
 }
 
-- (void)generateQuestion {
-    // TODO
+- (void)generateQuestion {}
+
+- (NSInteger) answer {
+    _endTime = [NSDate date];
+    return _answer;
 }
 
 @end

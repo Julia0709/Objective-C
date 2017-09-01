@@ -1,6 +1,6 @@
 //
 //  Question.h
-//  Assignment5
+//  Math
 //
 //  Created by Julia on 2017/08/24.
 //  © 2017 Julia
@@ -17,8 +17,7 @@
 @property (nonatomic) NSInteger rightValue;
 @property (nonatomic) NSInteger leftValue;
 
-- (NSTimeInterval)timeToAnswer;
-- (void)generateQuestion;
+- (NSTimeInterval) answerTime;
+- (void) generateQuestion;
 
 @end
-

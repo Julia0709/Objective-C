@@ -1,6 +1,6 @@
 //
 //  SubtractionQuestion.m
-//  Assignment5
+//  Math
 //
 //  Created by Julia on 2017/08/24.
 //  © 2017 Julia
@@ -11,15 +11,17 @@
 @implementation SubtractionQuestion
 
 - (instancetype)init {
-    if (self = [super init]) {
+    self = [super init];
+    if (self) {
         [self generateQuestion];
     }
     return self;
 }
 
 - (void)generateQuestion {
-    // set super.answer here
-    // set super.question here
+    
+    self.question = [NSString stringWithFormat:@"%li - %li = ?", (long) self.leftValue, (long) self.rightValue];
+    self.answer = self.leftValue - self.rightValue;
 }
 
 @end

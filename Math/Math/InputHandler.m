@@ -1,6 +1,6 @@
 
 //  inputHandler.m
-//  Assignment5
+//  Math
 //
 //  Created by Julia on 2017/08/21.
 //  © 2017 Julia

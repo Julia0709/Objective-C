@@ -1,14 +1,14 @@
 //
 //  SubtractionQuestion.h
-//  Assignment5
+//  Math
 //
 //  Created by Julia on 2017/08/24.
 //  © 2017 Julia
 //
 
-#import <Foundation/Foundation.h>
+#import "Question.h"
 
-@interface SubtractionQuestion : NSObject
+@interface SubtractionQuestion : Question
 
 - (instancetype)init;
 - (void)generateQuestion;
